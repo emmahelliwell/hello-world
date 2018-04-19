@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Testing code ELH</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Emma H">
+	<meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
+	
+	<style>
+body { 
+	background-color: white;
+	margin: 20px;
+	margin-right: 20px;
+	border: 10px solid white;
+	}
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 200%;
+	color: white;
+	}	
+h2 {
+	font-family: arial, sans-serif;
+	font-size: 80%;
+	color: white;
+	transform: rotate(270deg);
+	float: right;
+	text-align: justify;
+	}
+p {
+	font-family: arial, sans-serif;
+	font-size: 100%;
+	}
+.heading {
+	background-color: #000066;
+	padding: 5px;
+	float: right-side;
+	position: absolute;
+	width: 65%;
+	height: 200px;
+	margin-left: 30%;
+	}
+.space-filler {
+	background-color: #ff9900;
+	padding: 5px;
+	position: absolute;
+	width: 95%;
+	height: 1500px;
+	z-index: 0;
+	}
+.purple {
+	background-color: #cc66ff;
+	padding: 5px;
+	width: 95%;
+	height: 100px;
+	float: right-side;
+	position: absolute;
+	top: 200px;
+	}
+.white-space {
+	background-color: white;
+	padding-right: 20px;
+	padding-left: 10px;
+	width: 75%;
+	height: 250px;
+	float: right-side;
+	position: absolute;
+	top: 310px;
+	margin-bottom:20px;
+	overflow: auto;
+	}
+.iconbox1 {
+	background-color: #000066;
+	padding: 5px;
+	display: inline-block;
+	position: absolute;
+	top: 560px;
+	width: 32%;
+	height: 250px;
+	z-index: 3;
+	}
+.iconbox2 {
+	background-color: #66ff99;
+	padding: 5px;
+	position: absolute;
+	top: 560px;
+	width: 65%;
+	height: 250px;
+	display: inline-block;
+	z-index: 2;
+	}
+.iconbox3 {
+	background-color: #cc66ff;
+	padding: 5px;
+	position: absolute;
+	top: 560px;
+	width: 95%;
+	height: 250px;
+	display: inline-block;
+	z-index: 1;
+	}
+#secondws {
+	background-color: white;
+	padding-right: 20px;
+	padding-left: 10px;
+	width: 75%;
+	height: 250px;
+	margin-left: 20%;
+	float: right;
+	position: absolute;
+	top: 810px;
+	overflow: auto;
+	}
+.footer {
+	background-color: #000066;
+	position: absolute;
+	top: 1450px;
+	padding: 5px;
+	width: 95%;
+	float: right-side;
+	height: 100px;
+	}
+#iconbox1 {
+	background-color: #cc66ff;
+	padding: 5px;
+	display: inline-block;
+	position: absolute;
+	top: 1060px;
+	width: 32%;
+	height: 250px;
+	z-index: 3;
+	}
+#iconbox2 {
+	background-color: #66ff99;
+	padding: 5px;
+	position: absolute;
+	top: 1060px;
+	width: 65%;
+	height: 250px;
+	display: inline-block;
+	z-index: 2;
+	}
+#iconbox3 {
+	background-color: #000066;
+	padding: 5px;
+	position: absolute;
+	top: 1060px;
+	width: 95%;
+	height: 250px;
+	display: inline-block;
+	z-index: 1;
+	}
+a {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: white;
+	}
+	</style>
+</head>
+<body>
+
+<div class="space-filler">
+<br>
+<a href="https://www.w3schools.com/colors/colors_picker.asp">Colour Picker</a><br><br>
+<a href="http://www.csszengarden.com/">CSS Zen Garden</a><br><br>
+<a href="https://www.khanacademy.org/computing/computer-programming/html-css">Khan Academy</a>
+</div>
+
+
+<div class="heading">
+<h1>Testing CSS</h1>
+</div>
+
+<div class="purple">
+</div>
+
+
+<div class="white-space">
+<p>Lorem ipsum dolor sit amet, eam ludus docendi cu, usu zril deseruisse an. 
+Detraxit dissentiet instructior ex mei, ius errem reformidans eu, 
+vel ne etiam primis necessitatibus. 
+Homero veritus vix at. Mei te regione convenire, libris philosophia instructior cum ne.
+<br>
+<br>
+Ei fastidii delicata mea, te his nobis omnium. 
+Odio dicat per at, has ea voluptua accusamus torquatos, ea justo tantas duo. 
+Qui an reque fuisset. Pertinax quaestio ad vel. 
+Causae deserunt vis ea, ne has quem appareat cotidieque, mel simul sanctus ad.</p>
+
+</div>
+
+<div class="iconbox1">
+</div>
+
+<div class="iconbox2">
+
+</div>
+
+<div class="iconbox3">
+</div>
+
+<div class="white-space" id="secondws">
+<p>Lorem ipsum dolor sit amet, eam ludus docendi cu, usu zril deseruisse an. 
+Detraxit dissentiet instructior ex mei, ius errem reformidans eu, 
+vel ne etiam primis necessitatibus. 
+Homero veritus vix at. Mei te regione convenire, libris philosophia instructior cum ne.
+<br>
+<br>
+Ei fastidii delicata mea, te his nobis omnium. 
+Odio dicat per at, has ea voluptua accusamus torquatos, ea justo tantas duo. 
+Qui an reque fuisset. Pertinax quaestio ad vel. 
+Causae deserunt vis ea, ne has quem appareat cotidieque, mel simul sanctus ad.</p>
+</div>
+
+<div id="iconbox1">
+</div>
+
+<div id="iconbox2">
+</div>
+
+<div id="iconbox3">
+</div>
+
+<div class="footer">
+<p style="color:white; font-size:80%;"><br><br><br>Qui an reque fuisset. Pertinax quaestio ad vel. 
+Causae deserunt vis ea, ne has quem appareat cotidieque, mel simul sanctus ad.</p>
+</div>
+
+</body>
+</html>
